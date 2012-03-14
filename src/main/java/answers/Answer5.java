@@ -1,4 +1,4 @@
-package models.answers;
+package answers;
 
 /**
  * ローマ数字変換
