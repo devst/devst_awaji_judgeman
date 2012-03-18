@@ -32,6 +32,19 @@
           <target>1.6</target>
         </configuration>
       </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-javadoc-plugin</artifactId>
+        <configuration>
+          <author>true</author>
+          <source>1.6</source>
+          <showPackage>false</showPackage>
+          <showPrivate>true</showPrivate>
+          <encoding>UTF-8</encoding>
+          <charset>UTF-8</charset>
+          <docencoding>UTF-8</docencoding>
+        </configuration>
+      </plugin>
     </plugins>
   </build>
 
