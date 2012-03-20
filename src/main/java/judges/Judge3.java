@@ -8,7 +8,6 @@ import org.junit.Test;
 import features.Answer3;
 
 
-@Judge("FizzBuzz")
 public class Judge3 {
 
 	private Answer3 sut;

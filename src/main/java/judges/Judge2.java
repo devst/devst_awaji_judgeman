@@ -8,7 +8,6 @@ import org.junit.Test;
 import features.Answer2;
 
 
-@Judge("50音変換")
 public class Judge2 {
 
 	private Answer2 sut;

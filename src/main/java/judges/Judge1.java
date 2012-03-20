@@ -8,7 +8,6 @@ import org.junit.Test;
 import features.Answer1;
 
 
-@Judge("足し算")
 public class Judge1 {
 
 	private Answer1 sut;

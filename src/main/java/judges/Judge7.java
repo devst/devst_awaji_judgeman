@@ -7,7 +7,6 @@ import org.junit.Test;
 
 import features.Answer7;
 
-@Judge("鶴亀算")
 public class Judge7 {
 
 	private Answer7 sut;

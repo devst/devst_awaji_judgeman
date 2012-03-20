@@ -9,7 +9,6 @@ import org.junit.Test;
 import features.Answer5;
 
 
-@Judge("ローマ数字変換")
 public class Judge5 {
 
 	private Answer5 sut;
