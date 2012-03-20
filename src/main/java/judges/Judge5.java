@@ -6,7 +6,8 @@ import static org.junit.Assert.fail;
 
 import org.junit.Test;
 
-import answers.Answer5;
+import features.Answer5;
+
 
 @Judge("ローマ数字変換")
 public class Judge5 {

@@ -4,9 +4,10 @@ import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;
 import static org.junit.Assert.fail;
 
-import answers.Answer6;
 
 import org.junit.Test;
+
+import features.Answer6;
 
 public class Judge6 {
 

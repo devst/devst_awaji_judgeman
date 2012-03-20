@@ -1,4 +1,4 @@
-package answers;
+package features;
 
 /**
  * 50音変換

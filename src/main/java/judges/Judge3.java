@@ -5,7 +5,8 @@ import static org.junit.Assert.assertThat;
 
 import org.junit.Test;
 
-import answers.Answer3;
+import features.Answer3;
+
 
 @Judge("FizzBuzz")
 public class Judge3 {

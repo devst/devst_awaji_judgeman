@@ -5,7 +5,8 @@ import static org.junit.Assert.assertThat;
 
 import org.junit.Test;
 
-import answers.Answer1;
+import features.Answer1;
+
 
 @Judge("足し算")
 public class Judge1 {

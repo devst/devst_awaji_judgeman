@@ -5,7 +5,8 @@ import static org.junit.Assert.assertThat;
 
 import org.junit.Test;
 
-import answers.Answer2;
+import features.Answer2;
+
 
 @Judge("50音変換")
 public class Judge2 {

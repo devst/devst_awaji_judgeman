@@ -1,4 +1,4 @@
-package answers;
+package features;
 
 /**
  * FizzBuzz
