@@ -10,5 +10,11 @@ package features;
 
 public interface Answer7 {
 
+	/**
+	 * 鶴亀算の結果を返す。
+	 * @param x 全個体数
+	 * @param y 足の本数
+	 * @return 鶴亀それぞれの個体数
+	 */
 	String tsurukame(int x, int y);
 }

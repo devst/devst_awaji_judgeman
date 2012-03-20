@@ -8,6 +8,8 @@ import judges.Judge2;
 import judges.Judge3;
 import judges.Judge4;
 import judges.Judge5;
+import judges.Judge6;
+import judges.Judge7;
 
 /**
  * インデックス
@@ -24,8 +26,8 @@ public class Index {
 		list.add(new Double(Answer3.class, Judge3.class));
 		list.add(new Double(Answer4.class, Judge4.class));
 		list.add(new Double(Answer5.class, Judge5.class));
-		list.add(new Double(Answer6.class, null));
-		list.add(new Double(Answer7.class, null));
+		list.add(new Double(Answer6.class, Judge6.class));
+		list.add(new Double(Answer7.class, Judge7.class));
 		return list;
 	}
 
