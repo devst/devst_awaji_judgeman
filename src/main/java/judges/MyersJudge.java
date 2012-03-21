@@ -7,9 +7,7 @@ import org.junit.Test;
 
 import features.Myers;
 
-public class MyersJudge {
-
-	private Myers sut;
+public class MyersJudge extends Judge<Myers> {
 
 	@Test
 	public void 正三角形() throws Exception {

@@ -7,9 +7,7 @@ import org.junit.Test;
 
 import features.Answer7;
 
-public class Judge7 {
-
-	private Answer7 sut;
+public class Judge7 extends Judge<Answer7> {
 
 	@Test
 	public void 鶴一羽() throws Exception {

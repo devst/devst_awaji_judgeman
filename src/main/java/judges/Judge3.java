@@ -8,9 +8,7 @@ import org.junit.Test;
 import features.Answer3;
 
 
-public class Judge3 {
-
-	private Answer3 sut;
+public class Judge3 extends Judge<Answer3> {
 
 	@Test
 	public void 三の倍数() throws Exception {

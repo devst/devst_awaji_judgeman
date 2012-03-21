@@ -8,9 +8,7 @@ import org.junit.Test;
 import features.Answer1;
 
 
-public class Judge1 {
-
-	private Answer1 sut;
+public class Judge1 extends Judge<Answer1> {
 
 	@Test
 	public void test1() {

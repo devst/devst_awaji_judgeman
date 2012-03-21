@@ -9,9 +9,7 @@ import org.junit.Test;
 
 import features.Answer6;
 
-public class Judge6 {
-
-	private Answer6 sut;
+public class Judge6 extends Judge<Answer6> {
 
 	/**
 	 * 引数が0の場合、RuntimeExceptionを投げる。

@@ -7,9 +7,7 @@ import org.junit.Test;
 
 import features.JapaneseSyllabary;
 
-public class JapaneseSyllabaryJudge {
-
-	private JapaneseSyllabary sut;
+public class JapaneseSyllabaryJudge extends Judge<JapaneseSyllabary>{
 
 	@Test
 	public void 母音() throws Exception {

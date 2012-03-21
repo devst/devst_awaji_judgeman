@@ -8,9 +8,7 @@ import features.Answer4;
 
 import org.junit.Test;
 
-public class Judge4 {
-
-	private Answer4 sut;
+public class Judge4 extends Judge<Answer4> {
 
 	/**
 	 * 引数が5個以外の場合、RuntimeExceptionを投げる。
