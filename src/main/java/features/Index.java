@@ -10,6 +10,7 @@ import judges.Judge4;
 import judges.Judge5;
 import judges.Judge6;
 import judges.Judge7;
+import judges.MyersJudge;
 
 /**
  * インデックス
@@ -28,6 +29,7 @@ public class Index {
 		list.add(new Entry("ローマ数字変換", Answer5.class, Judge5.class));
 		list.add(new Entry("コイン判別", Answer6.class, Judge6.class));
 		list.add(new Entry("鶴亀算", Answer7.class, Judge7.class));
+		list.add(new Entry("Myersの三角形", Myers.class, MyersJudge.class));
 		return list;
 	}
 
