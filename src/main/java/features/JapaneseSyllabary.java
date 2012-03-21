@@ -7,7 +7,7 @@ package features;
  * ただし、渡す文字列は半角の2文字までで、例えば「ち」は "chi" ではなく "ti" で表現する。
  */
 
-public interface Answer2 {
+public interface JapaneseSyllabary {
 
 	String execute(char... str);
 }

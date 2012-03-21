@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import judges.Judge1;
-import judges.Judge2;
+import judges.JapaneseSyllabaryJudge;
 import judges.Judge3;
 import judges.Judge4;
 import judges.Judge5;
@@ -23,7 +23,7 @@ public class Index {
 	public static List<Entry> getList() {
 		List<Entry> list = new ArrayList<Entry>();
 		list.add(new Entry("足し算", Answer1.class, Judge1.class));
-		list.add(new Entry("50音変換", Answer2.class, Judge2.class));
+		list.add(new Entry("50音変換", JapaneseSyllabary.class, JapaneseSyllabaryJudge.class));
 		list.add(new Entry("FizzBuzz", Answer3.class, Judge3.class));
 		list.add(new Entry("ポーカー", Answer4.class, Judge4.class));
 		list.add(new Entry("ローマ数字変換", Answer5.class, Judge5.class));
