@@ -18,10 +18,10 @@ import judges.MyersJudge;
 public class Index {
 
 	/**
-	 * @return Entryのリスト
+	 * @return Featureのリスト
 	 */
-	public static List<Entry<?>> getList() {
-		List<Entry<?>> list = new ArrayList<Entry<?>>();
+	public static List<Feature<?>> getList() {
+		List<Feature<?>> list = new ArrayList<Feature<?>>();
 		list.add(entry("計算機", Calculator.class, CalculatorJudge.class));
 		list.add(entry("FizzBuzz", FizzBuzz.class, FizzBuzzJudge.class));
 		list.add(entry("ポーカー", Poker.class, PokerJudge.class));
@@ -32,18 +32,18 @@ public class Index {
 		return list;
 	}
 
-	private static <T> Entry<T> entry(String name, Class<T> feature, Class<? extends Judge<T>> judge) {
-		return new Entry<T>(name, feature, judge);
+	private static <T> Feature<T> entry(String name, Class<T> feature, Class<? extends Judge<T>> judge) {
+		return new Feature<T>(name, feature, judge);
 	}
 
-	public static class Entry<T> {
+	public static class Feature<T> {
 		public final String name;
-		public final Class<?> feature;
-		public final Class<?> judgeman;
+		public final Class<T> type;
+		public final Class<? extends Judge<T>> judgeman;
 
-		Entry(String name, Class<T> feature,Class<? extends Judge<T>> judgeman) {
+		Feature(String name, Class<T> feature, Class<? extends Judge<T>> judgeman) {
 			this.name = name;
-			this.feature = feature;
+			this.type = feature;
 			this.judgeman = judgeman;
 		}
 	}
