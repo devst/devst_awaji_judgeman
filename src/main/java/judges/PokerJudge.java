@@ -4,11 +4,11 @@ import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;
 import static org.junit.Assert.fail;
 
-import features.Answer4;
+import features.Poker;
 
 import org.junit.Test;
 
-public class Judge4 extends Judge<Answer4> {
+public class PokerJudge extends Judge<Poker> {
 
 	/**
 	 * 引数が5個以外の場合、RuntimeExceptionを投げる。

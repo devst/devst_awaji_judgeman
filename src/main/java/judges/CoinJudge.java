@@ -7,9 +7,9 @@ import static org.junit.Assert.fail;
 
 import org.junit.Test;
 
-import features.Answer6;
+import features.Coin;
 
-public class Judge6 extends Judge<Answer6> {
+public class CoinJudge extends Judge<Coin> {
 
 	/**
 	 * 引数が0の場合、RuntimeExceptionを投げる。

@@ -5,10 +5,10 @@ import static org.junit.Assert.assertThat;
 
 import org.junit.Test;
 
-import features.Answer3;
+import features.FizzBuzz;
 
 
-public class Judge3 extends Judge<Answer3> {
+public class FizzBuzzJudge extends Judge<FizzBuzz> {
 
 	@Test
 	public void 三の倍数() throws Exception {

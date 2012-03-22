@@ -5,9 +5,9 @@ import static org.junit.Assert.assertThat;
 
 import org.junit.Test;
 
-import features.Answer7;
+import features.Tsurukamezan;
 
-public class Judge7 extends Judge<Answer7> {
+public class TsurukamezanJudge extends Judge<Tsurukamezan> {
 
 	@Test
 	public void 鶴一羽() throws Exception {

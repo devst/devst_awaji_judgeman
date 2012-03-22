@@ -8,7 +8,7 @@ package features;
  * 
  */
 
-public interface Answer7 {
+public interface Tsurukamezan {
 
 	/**
 	 * 鶴亀算の結果を返す。
