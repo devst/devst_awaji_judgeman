@@ -46,5 +46,10 @@ public class Index {
 			this.type = feature;
 			this.judgeman = judgeman;
 		}
+
+		@Override
+		public String toString() {
+			return name;
+		}
 	}
 }
