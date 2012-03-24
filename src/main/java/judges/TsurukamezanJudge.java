@@ -31,4 +31,15 @@ public class TsurukamezanJudge extends Judge<Tsurukamezan> {
 	public void 計算が成立しない() throws Exception {
 		sut.tsurukame(1, 3);
 	}
+
+	@Test
+	public void 両方ゼロ() throws Exception {
+		String actual = sut.tsurukame(0, 0);
+		assertThat(actual, is("鶴0羽、亀0匹"));
+	}
+
+	@Test(expected=RuntimeException.class)
+	public void マイナスはダメ() throws Exception {
+		sut.tsurukame(-1, -2);
+	}
 }
