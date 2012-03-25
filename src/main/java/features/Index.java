@@ -25,10 +25,10 @@ public class Index {
 		list.add(entry("計算機", Calculator.class, CalculatorJudge.class));
 		list.add(entry("FizzBuzz", FizzBuzz.class, FizzBuzzJudge.class));
 		list.add(entry("ポーカー", Poker.class, PokerJudge.class));
-		list.add(entry("ローマ数字変換", RomanConverter.class, RomanConverterJudge.class));
-		list.add(entry("コイン判別", Coin.class, CoinJudge.class));
+		list.add(entry("数字変換", RomanConverter.class, RomanConverterJudge.class));
+		list.add(entry("コイン", Coin.class, CoinJudge.class));
 		list.add(entry("鶴亀算", Tsurukamezan.class, TsurukamezanJudge.class));
-		list.add(entry("Myersの三角形", Myers.class, MyersJudge.class));
+		list.add(entry("Myers", Myers.class, MyersJudge.class));
 		return list;
 	}
 
