@@ -2,6 +2,7 @@ package features;
 
 import judges.CalculatorJudge;
 import judges.CoinJudge;
+import judges.EnqueteJudge;
 import judges.FizzBuzzJudge;
 import judges.Judge;
 import judges.MyersJudge;
@@ -10,6 +11,8 @@ import judges.RomanConverterJudge;
 import judges.TsurukamezanJudge;
 
 public enum Feature {
+
+	ENQ("あんけ", Enquete.class, EnqueteJudge.class),
 
 	Q1("FizzBuzz", FizzBuzz.class, FizzBuzzJudge.class),
 	Q2("計算機", Calculator.class, CalculatorJudge.class),
