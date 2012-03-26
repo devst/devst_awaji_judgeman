@@ -17,14 +17,14 @@ public enum Feature {
 
 	ENQ("目標", Enquete.class, EnqueteJudge.class),
 
-	Q1("FizzBuzz", FizzBuzz.class, FizzBuzzJudge.class),
-	Q7("Myers", Myers.class, MyersJudge.class),
-	Q2("計算機", Calculator.class, CalculatorJudge.class),
-	Q6("鶴亀算", Tsurukamezan.class, TsurukamezanJudge.class),
+	FIZZ_BUZZ("FizzBuzz", FizzBuzz.class, FizzBuzzJudge.class),
+	MYERS("Myers", Myers.class, MyersJudge.class),
+	CALC("計算機", Calculator.class, CalculatorJudge.class),
+	TSURU_KAME("鶴亀算", Tsurukamezan.class, TsurukamezanJudge.class),
 
-	Q3("ポーカー", Poker.class, PokerJudge.class, false),
-	Q4("数字変換", RomanConverter.class, RomanConverterJudge.class, false),
-	Q5("コイン", Coin.class, CoinJudge.class, false),
+	POKER("ポーカー", Poker.class, PokerJudge.class, false),
+	ROMAN("数字変換", RomanConverter.class, RomanConverterJudge.class, false),
+	COIN("コイン", Coin.class, CoinJudge.class, false),
 	;
 	public final String label;
 	public final Class<?> feature;
