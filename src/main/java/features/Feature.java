@@ -12,7 +12,7 @@ import judges.TsurukamezanJudge;
 
 public enum Feature {
 
-	ENQ("あんけ", Enquete.class, EnqueteJudge.class),
+	ENQ("目標", Enquete.class, EnqueteJudge.class),
 
 	Q1("FizzBuzz", FizzBuzz.class, FizzBuzzJudge.class),
 	Q2("計算機", Calculator.class, CalculatorJudge.class),

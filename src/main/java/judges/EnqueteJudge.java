@@ -14,4 +14,9 @@ public class EnqueteJudge extends Judge<Enquete> {
 	public void なまえ() throws Exception {
 		assertThat(sut.getName(), is(notNullValue()));
 	}
+
+	@Test
+	public void もくひょう() throws Exception {
+		assertThat(sut.getGoal(), is(notNullValue()));
+	}
 }
