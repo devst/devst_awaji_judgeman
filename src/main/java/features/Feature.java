@@ -15,7 +15,7 @@ import judges.TsurukamezanJudge;
 
 public enum Feature {
 
-	ENQ("目標", Enquete.class, EnqueteJudge.class),
+	ENQ("意気込み", Enquete.class, EnqueteJudge.class),
 
 	FIZZ_BUZZ("FizzBuzz", FizzBuzz.class, FizzBuzzJudge.class),
 	MYERS("Myers", Myers.class, MyersJudge.class),
