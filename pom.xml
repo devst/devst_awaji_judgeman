@@ -4,7 +4,7 @@
 
   <groupId>devst</groupId>
   <artifactId>devst_awaji_judgeman</artifactId>
-  <version>1.2.6</version>
+  <version>1.2.7</version>
   <packaging>jar</packaging>
 
   <name>devst_awaji_judgeman</name>
@@ -30,6 +30,16 @@
         <configuration>
           <source>1.6</source>
           <target>1.6</target>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-jar-plugin</artifactId>
+        <version>2.4</version>
+        <configuration>
+          <includes>
+            <include>**/features/*</include>
+          </includes>
         </configuration>
       </plugin>
     </plugins>
