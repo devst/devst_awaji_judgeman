@@ -5,7 +5,7 @@ import java.util.List;
 
 import judges.CalculatorJudge;
 import judges.CoinJudge;
-import judges.EnqueteJudge;
+import judges.FirstPairWorkJudge;
 import judges.FizzBuzzJudge;
 import judges.Judge;
 import judges.MyersJudge;
@@ -15,7 +15,7 @@ import judges.TsurukamezanJudge;
 
 public enum Feature {
 
-	ENQ("意気込み", Enquete.class, EnqueteJudge.class),
+	ENQ("意気込み", FirstPairWork.class, FirstPairWorkJudge.class),
 
 	FIZZ_BUZZ("FizzBuzz", FizzBuzz.class, FizzBuzzJudge.class),
 	MYERS("Myers", Myers.class, MyersJudge.class),
