@@ -24,7 +24,7 @@ public enum Feature {
 
 	POKER("ポーカー", Poker.class, PokerJudge.class, false),
 	ROMAN("数字変換", RomanConverter.class, RomanConverterJudge.class, false),
-	COIN("コイン", Coin.class, CoinJudge.class, false),
+	COIN("コイン", Coin.class, CoinJudge.class, true),
 	;
 	public final String label;
 	public final Class<?> feature;
